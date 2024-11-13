@@ -1,0 +1,5 @@
+- Basit bir categories uygulamasýdýr.
+- Proje icerisinde UsqSqlServer kullanýlmýþtýr.
+- Properties => launchSettings.json dosyasý içerisindeki "launchBrowser" deðeri "false" olarak deðiþtirilmiþtir. Boylece uygulama çalýþtýrýldýðýnda tarayýcý açýlmayacaktýr.
+- Properties => launchSettings.json dosyasý içerisindeki "applicationUrl" deðeri "http://localhost:5002" olarak deðiþtirilmiþtir. Boylece uygulama çalýþtýrýldýðýnda belirtilen port üzerinden çalýþacaktýr.
+- Proje icerisinde bir adet model ve dto kullanilmistir. Model ile ilgili islemler program cs icerisinde direkt olarak API adresi icerisinde yapilmistir.
