@@ -8,6 +8,7 @@ namespace FirstMicroservice.Todos.WebApi.Context
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
+
         public DbSet<Todo> Todos { get; set; } = default!;
     }
 }
